@@ -1,0 +1,742 @@
+[../mrsequential ../../mrapps/wc.so ../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+ranging : pg-text-0 is running
+ranging : pg-text-1 is running
+ranging : pg-text-2 is running
+ranging : pg-text-3 is running
+ranging : pg-text-4 is running
+ranging : pg-text-5 is running
+ranging : pg-text-6 is running
+ranging : pg-text-7 is running
+*** Starting wc test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-being_ernest.txt
+will open ../pg-dorian_gray.txt
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-metamorphosis.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-sherlock_holmes.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+worerk id : 2, total kvas count 43536 in the task.id : 0 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 3
+worerk id : 0, total kvas count 41126 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+worerk id : 2, total kvas count 41979 in the task.id : 3 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 5
+worerk id : 0, total kvas count 60534 in the task.id : 4 
+worerk id : 1, total kvas count 94981 in the task.id : 2 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 7
+worerk id : 2, total kvas count 39508 in the task.id : 5 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+checking Task Heart Now Coordinator.Pharse : 1
+worerk id : 1, total kvas count 57565 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 9
+worerk id : 2, total kvas count 79133 in the task.id : 8 
+worerk id : 0, total kvas count 105743 in the task.id : 6 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+worerk id : 1, total kvas count 59843 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+worker 1 is stop
+Coordinator.Choose
+worker 2 is stop
+Coordinator.Choose
+worker 0 is stop
+--- wc test: PASS
+[../mrsequential ../../mrapps/indexer.so ../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+ranging : pg-text-0 is running
+ranging : pg-text-1 is running
+ranging : pg-text-2 is running
+ranging : pg-text-3 is running
+ranging : pg-text-4 is running
+ranging : pg-text-5 is running
+ranging : pg-text-6 is running
+ranging : pg-text-7 is running
+*** Starting indexer test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-being_ernest.txt
+will open ../pg-dorian_gray.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-metamorphosis.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-sherlock_holmes.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+worerk id : 0, total kvas count 5203 in the task.id : 0 
+worerk id : 1, total kvas count 5104 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 3
+worerk id : 0, total kvas count 5143 in the task.id : 2 
+worerk id : 1, total kvas count 5199 in the task.id : 3 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 5
+worerk id : 0, total kvas count 5309 in the task.id : 4 
+worerk id : 1, total kvas count 5248 in the task.id : 5 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 7
+worerk id : 0, total kvas count 5461 in the task.id : 6 
+worerk id : 1, total kvas count 5131 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 9
+worerk id : 0, total kvas count 5468 in the task.id : 8 
+worerk id : 1, total kvas count 5314 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+worker 1 is stop
+Coordinator.Choose
+worker 0 is stop
+--- indexer test: PASS
+*** Starting map parallelism test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-dorian_gray.txt
+will open ../pg-being_ernest.txt
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-metamorphosis.txt
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-sherlock_holmes.txt
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+RPC Choose Get ReduceTask of 1
+worerk id : 1, total kvas count 0 in the task.id : 0 
+Coordinator.ReportReduceTask
+worerk id : 0, total kvas count 0 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+RPC Choose Get ReduceTask of 3
+worerk id : 1, total kvas count 0 in the task.id : 2 
+Coordinator.ReportReduceTask
+worerk id : 0, total kvas count 0 in the task.id : 3 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+RPC Choose Get ReduceTask of 5
+worerk id : 0, total kvas count 0 in the task.id : 4 
+Coordinator.ReportReduceTask
+worerk id : 1, total kvas count 8 in the task.id : 5 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+RPC Choose Get ReduceTask of 7
+worerk id : 0, total kvas count 0 in the task.id : 6 
+Coordinator.ReportReduceTask
+worerk id : 1, total kvas count 0 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+RPC Choose Get ReduceTask of 9
+worerk id : 1, total kvas count 0 in the task.id : 9 
+Coordinator.ReportReduceTask
+worerk id : 0, total kvas count 8 in the task.id : 8 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+worker 0 is stop
+worker 1 is stop
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-being_ernest.txt
+will open ../pg-dorian_gray.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-metamorphosis.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+will open ../pg-sherlock_holmes.txt
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+worerk id : 0, total kvas count 8 in the task.id : 0 
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+worerk id : 1, total kvas count 8 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+Coordinator.ReportReduceTask
+worerk id : 0, total kvas count 8 in the task.id : 2 
+Coordinator.Choose
+RPC Choose Get ReduceTask of 3
+worerk id : 1, total kvas count 16 in the task.id : 3 
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+worerk id : 0, total kvas count 16 in the task.id : 4 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 5
+worerk id : 1, total kvas count 8 in the task.id : 5 
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+worerk id : 0, total kvas count 8 in the task.id : 6 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 7
+worerk id : 1, total kvas count 0 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+worerk id : 1, total kvas count 0 in the task.id : 8 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 9
+worerk id : 1, total kvas count 8 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+worker 0 is stop
+--- reduce parallelism test: PASS
+Coordinator.Choose
+worker 1 is stop
+checking Task Heart Now Coordinator.Pharse : 2
+*** Starting job count test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-being_ernest.txt
+will open ../pg-dorian_gray.txt
+checking Task Heart Now Coordinator.Pharse : 0
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+checking Task Heart Now Coordinator.Pharse : 0
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-metamorphosis.txt
+checking Task Heart Now Coordinator.Pharse : 0
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+will open ../pg-sherlock_holmes.txt
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+worerk id : 0, total kvas count 0 in the task.id : 0 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+Coordinator.Choose
+worerk id : 1, total kvas count 0 in the task.id : 1 
+Coordinator.ReportReduceTask
+RPC Choose Get ReduceTask of 2
+Coordinator.Choose
+worerk id : 0, total kvas count 8 in the task.id : 2 
+Coordinator.ReportReduceTask
+RPC Choose Get ReduceTask of 3
+worerk id : 1, total kvas count 0 in the task.id : 3 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+worerk id : 0, total kvas count 0 in the task.id : 4 
+RPC Choose Get ReduceTask of 5
+Coordinator.ReportReduceTask
+worerk id : 1, total kvas count 0 in the task.id : 5 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+RPC Choose Get ReduceTask of 7
+worerk id : 0, total kvas count 0 in the task.id : 6 
+Coordinator.ReportReduceTask
+worerk id : 1, total kvas count 0 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+RPC Choose Get ReduceTask of 9
+worerk id : 1, total kvas count 0 in the task.id : 8 
+worerk id : 0, total kvas count 0 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+worker 1 is stop
+worker 0 is stop
+Coordinator.Choose
+Coordinator.Choose
+--- job count test: PASS
+*** Starting early exit test.
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-dorian_gray.txt
+will open ../pg-being_ernest.txt
+will open ../pg-frankenstein.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-grimm.txt
+Coordinator.ReportMapTask
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-huckleberry_finn.txt
+will open ../pg-metamorphosis.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+will open ../pg-sherlock_holmes.txt
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+worerk id : 2, total kvas count 0 in the task.id : 0 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+worerk id : 2, total kvas count 0 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+Coordinator.Choose
+worerk id : 1, total kvas count 2 in the task.id : 2 
+RPC Choose Get ReduceTask of 3
+Coordinator.Choose
+worerk id : 2, total kvas count 1 in the task.id : 3 
+Coordinator.ReportReduceTask
+RPC Choose Get ReduceTask of 4
+worerk id : 0, total kvas count 0 in the task.id : 4 
+Coordinator.Choose
+Coordinator.ReportReduceTask
+RPC Choose Get ReduceTask of 5
+Coordinator.Choose
+worerk id : 2, total kvas count 1 in the task.id : 5 
+Coordinator.ReportReduceTask
+RPC Choose Get ReduceTask of 6
+worerk id : 0, total kvas count 2 in the task.id : 6 
+Coordinator.Choose
+RPC Choose Get ReduceTask of 7
+worerk id : 2, total kvas count 0 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+worerk id : 2, total kvas count 1 in the task.id : 8 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 9
+worerk id : 2, total kvas count 1 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+worker 1 is stop
+Coordinator.Choose
+worker 0 is stop
+Coordinator.Choose
+worker 2 is stop
+--- early exit test: PASS
+*** Starting crash test.
+[../mrsequential ../../mrapps/nocrash.so ../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+ranging : pg-text-0 is running
+ranging : pg-text-1 is running
+ranging : pg-text-2 is running
+ranging : pg-text-3 is running
+ranging : pg-text-4 is running
+ranging : pg-text-5 is running
+ranging : pg-text-6 is running
+ranging : pg-text-7 is running
+[../pg-being_ernest.txt ../pg-dorian_gray.txt ../pg-frankenstein.txt ../pg-grimm.txt ../pg-huckleberry_finn.txt ../pg-metamorphosis.txt ../pg-sherlock_holmes.txt ../pg-tom_sawyer.txt]
+8
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-being_ernest.txt
+will open ../pg-frankenstein.txt
+will open ../pg-dorian_gray.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-grimm.txt
+will open ../pg-huckleberry_finn.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+will open ../pg-metamorphosis.txt
+Coordinator.Choose
+will open ../pg-sherlock_holmes.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+will open ../pg-dorian_gray.txt
+Coordinator.Choose
+will open ../pg-tom_sawyer.txt
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.ReportMapTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 0
+Coordinator.Choose
+RPC Choose Get ReduceTask of 0
+worerk id : 3, total kvas count 8 in the task.id : 0 
+Coordinator.Choose
+RPC Choose Get ReduceTask of 1
+worerk id : 2, total kvas count 0 in the task.id : 1 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+worerk id : 2, total kvas count 8 in the task.id : 2 
+Coordinator.Choose
+RPC Choose Get ReduceTask of 3
+worerk id : 4, total kvas count 0 in the task.id : 3 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 4
+worerk id : 4, total kvas count 0 in the task.id : 4 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 5
+worerk id : 4, total kvas count 8 in the task.id : 5 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 6
+worerk id : 4, total kvas count 0 in the task.id : 6 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 7
+worerk id : 4, total kvas count 0 in the task.id : 7 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 8
+worerk id : 4, total kvas count 0 in the task.id : 8 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+RPC Choose Get ReduceTask of 9
+worerk id : 4, total kvas count 8 in the task.id : 9 
+Coordinator.ReportReduceTask
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+worerk id : 5, total kvas count 8 in the task.id : 2 
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+RPC Choose Get ReduceTask of 2
+worerk id : 6, total kvas count 8 in the task.id : 2 
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.Choose
+Coordinator.ReportReduceTask
+Coordinator.Choose
+checking Task Heart Now Coordinator.Pharse : 1
+Coordinator.Choose
+worker 4 is stop
+Coordinator.Choose
+worker 3 is stop
+Coordinator.Choose
+worker 6 is stop
+--- crash test: PASS
+*** PASSED ALL TESTS
