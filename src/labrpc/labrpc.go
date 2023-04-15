@@ -5,7 +5,7 @@ package labrpc
 //
 // simulates a network that can lose requests, lose replies,
 // delay messages, and entirely disconnect particular hosts.
-//
+//! 模拟一个网络可以失去请求，回复，延时，完全断开特定主机的链接
 // we will use the original labrpc.go to test your code for grading.
 // so, while you can modify this code to help you debug, please
 // test against the original before submitting.
@@ -49,15 +49,18 @@ package labrpc
 //   pass svc to srv.AddService()
 //
 
-import "6.824/labgob"
-import "bytes"
-import "reflect"
-import "sync"
-import "log"
-import "strings"
-import "math/rand"
-import "time"
-import "sync/atomic"
+import (
+	"bytes"
+	"log"
+	"math/rand"
+	"reflect"
+	"strings"
+	"sync"
+	"sync/atomic"
+	"time"
+
+	"6.824/labgob"
+)
 
 type reqMsg struct {
 	endname  interface{} // name of sending ClientEnd
@@ -411,7 +414,7 @@ func (rs *Server) dispatch(req reqMsg) replyMsg {
 	dot := strings.LastIndex(req.svcMeth, ".")
 	serviceName := req.svcMeth[:dot]
 	methodName := req.svcMeth[dot+1:]
-
+	println(serviceName, methodName)
 	service, ok := rs.services[serviceName]
 
 	rs.mu.Unlock()
