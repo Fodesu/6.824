@@ -1,0 +1,212 @@
+Test (2A): initial election ...
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+--- FAIL: TestInitialElection2A (0.57s)
+    config.go:413: servers disagree on term
+Test (2A): election after network failure ...
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+  ... Passed --   4.4  3   28    2944    0
+Test (2A): multiple elections ...
+electionTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+heartBeatTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+electionTimer is timeout
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+Raft RequestVote
+  ... Passed --   5.5  7  282   31190    0
+FAIL
+exit status 1
+FAIL	6.824/raft	10.524s
